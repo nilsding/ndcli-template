@@ -1,0 +1,5 @@
+require:
+  - rt_rubocop_defaults
+
+Style/FrozenStringLiteralComment:
+  Enabled: false

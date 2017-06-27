@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "awesome_print"
+gem "confstruct"
+gem "thor"
+gem "pry"
+gem "rake"
+
+group :development, :test do
+  gem "rt_rubocop_defaults"
+  gem "rubocop"
+end

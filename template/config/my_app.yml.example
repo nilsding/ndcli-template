@@ -1,0 +1,13 @@
+default: &default
+  # The app configuration goes here.  For example:
+  music_dir: '/var/music'
+  allow_edits: false
+  log_level: 0
+
+development:
+  <<: *default
+
+# Different environments can have different default values:
+release:
+  <<: *default
+  log_level: 5

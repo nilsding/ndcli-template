@@ -1,0 +1,7 @@
+#!/usr/bin/env rake
+# New rake tasks should be defined inside a rakefile in lib/rake/.
+require File.expand_path "../config/environment", __FILE__
+
+Dir[File.expand_path "../lib/rake/*.rake", __FILE__].each do |file_name|
+  Rake.load_rakefile file_name
+end
